@@ -35,7 +35,7 @@ html[xmlns] .clearfix {
 
 html,
 body{
-	font-size: 100%;
+	font-size: 67.5%; /*1.0rem = 10px*/
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -51,11 +51,13 @@ h1{
 
 h2{
 
-  font-size: 1.750em;
+  font-size: 4.8rem;
+  margin: 0 0;
 }
 p{
-  line-height: 1.4em;
-  font-size: 1.313em;
+  line-height: 3rem;
+  font-size: 2.1rem;
+  margin:1em 0;
 
 }
 
@@ -75,7 +77,8 @@ img{
 /* featured posts
 ================================ */
 .featured-container{
-  min-height: 
+
+   
 }
 
 .img-mask{
@@ -103,7 +106,7 @@ margin:auto;
   color:white;
   display:block;
   width: 90%;
-  margin: 1% auto;
+/*  margin: 2.4rem 0;*/
 }
 
 
@@ -136,3 +139,11 @@ margin:auto;
 
 /* Media Queries
 ================================ */
+
+  @media screen and (min-width: 768px){
+  body{
+    background: #FF6347;
+    color:#FFF;
+  }
+}
+
