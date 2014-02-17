@@ -39,11 +39,17 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
-header{
+.main-header{
+  background-color: #43A6DF;
+  width: 100%;
+
+  
+}
+
+.main-footer{
   background-color: #43A6DF;
   width: 100%;
   min-height:100px;
-  
 }
 h1{
 
@@ -65,6 +71,7 @@ img{
   max-width: 100%;
 }
 
+
 .hide{
   display:none;
 }
@@ -76,10 +83,7 @@ img{
 
 /* featured posts
 ================================ */
-.featured-container{
 
-   
-}
 
 .img-mask{
   overflow: hidden;
@@ -87,11 +91,11 @@ img{
 
 }
 
-.copy{
-width: 90%;
+/*.copy{
+width: 100%;
 margin:auto;
 }
-
+*/
 
 
 
@@ -119,9 +123,10 @@ margin:auto;
   height: 80px;
   border-radius: 50%;
   border:6px solid white;
-  position: relative;
+ /* position: relative;
   top:10px;
-  left:10px;
+  left:10px;*/
+
 
 }
 
@@ -136,14 +141,39 @@ margin:auto;
 /* Layout
 ================================ */
 
+.wrap{
+  margin: 0 auto;
+  width: 90%;
+}
+
 
 /* Media Queries
 ================================ */
 
-  @media screen and (min-width: 768px){
-  body{
-    background: #FF6347;
-    color:#FFF;
+/* Phones to Tablets */
+
+  @media only screen and (min-width: 481px){
+  .column{
+    float:left;
+  }
+
+  .third{
+    width: 31.3333333%;
+    margin-right: 2%;
+    border: 1px solid black;
+  }
+}
+
+
+/* Tablet to Desktop */
+
+@media only screen and (min-width: 769px){
+
+}
+
+@media only screen and (min-width: 1024px){
+  .wrap{
+    width:968px;
   }
 }
 
