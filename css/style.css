@@ -157,13 +157,13 @@ margin:auto;
     float:left;
   }
 
-  .third{
-    width: 31.99999%;
+  .half{
+    width: 49%;
     margin-right: 2%;
     border: 1px solid black;
   }
 
-  .third:last-of-type{
+  .half:last-of-type{
     margin-right: 0;
 
   }
@@ -178,7 +178,16 @@ margin:auto;
 
 @media only screen and (min-width: 1024px){
   .wrap{
-    width:968px;
+    width:60%;
   }
 }
+
+/* Device (Retina Displays 2x96 = 192) or 1.5x96 = 192 dpi */
+
+@media screen and (-webkit-min-device-pixel-ratio:1.5),  screen  and (min-resolution:144dpi){
+ .logo{
+
+ }
+}
+
 
