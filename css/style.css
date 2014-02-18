@@ -96,12 +96,12 @@ Column width: 65px
 gutter 20px
 */
 
-.grid_1{}  /*65px*/
-.grid_2{}  /* 65 x 2 + 20px = 150px*/
-.grid_3{}  /*65 x3 + 40px =235px*/ 
-.grid_4{}  /*65 x 4 + 60 = 320 */ 
-.grid_5{}  /*65 x 5 + 80 = 405 */ 
-.grid_6{}  /*65 x 6 + 100 = 490 */ 
+.grid_1{width:6.5%}  /*65px*/
+.grid_2{width:15%}  /* 65 x 2 + 20px = 150px*/
+.grid_3{width:23.5%}  /*65 x3 + 40px =235px*/ 
+.grid_4{width:32%}  /*65 x 4 + 60 = 320 */ 
+.grid_5{width:40.5%}  /*65 x 5 + 80 = 405 */ 
+.grid_6{width:49%;}  /*65 x 6 + 100 = 490 */ 
 .grid_7{width: 57.5%;}  /*65 x 7 + 120 = 575 */ 
 .grid_8{width: 66%;}  /*65 x 8 + 140 = 660 */ 
 .grid_9{width: 74.5%;}  /*65 x 9 + 160 = 745 */ 
